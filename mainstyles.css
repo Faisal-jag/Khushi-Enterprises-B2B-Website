@@ -1,0 +1,22 @@
+.navbar {
+    background-color: rgb(48, 48, 48);
+    border-radius: 30px;
+  }
+  .navbar li {
+    float: left;
+    list-style: none;
+    margin: 14px 20px;
+    
+  }
+  .navbar ul {
+    overflow: auto;
+  }
+  .navbar li a{
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .navbar li a:hover{
+    background-color: rgb(168, 202, 116);
+    border-radius: 30px;
+  }
