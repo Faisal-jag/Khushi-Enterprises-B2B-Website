@@ -9,24 +9,40 @@
     <style>
       h1 {
         background-color: rgb(72, 72, 96);
-        /* overflow: auto; */
-        color: white;
         text-align: center;
-      
+        color: white;
+      }
+      body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(48, 42, 42);
       }
     </style>
   </head>
 
   <body>
-    <header>
-      <nav class="navbar">
+    <header class="header">
+      <!-- left box for logo -->
+      <div class="left">i am left</div>
+
+      <!-- mid box for navbar -->
+      <div class="mid">
+        <nav class="navbar">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="">Products catelogue</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- right box for button -->
+      <div class="right">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="">Products catelogue</a></li>
-          <li><a href="aboutus.html">About us</a></li>
-          <li><a href="contactus.html">Contact us</a></li>
+          <li><a href="contactus.html" class="active">Contact Us</a></li>
         </ul>
-      </nav>
+      </div>
     </header>
 
     <section>
