@@ -103,3 +103,11 @@ padding: 8px;
   text-align: center; 
   font-size: 25px;
 }
+
+.bagimg{
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+  width: 500px;
+  height: 500px;
+}
