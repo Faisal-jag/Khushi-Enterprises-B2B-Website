@@ -57,13 +57,13 @@ h1 {
     display: inline-block;
     position: absolute;
     right: 34px;
-    top: 80px;
-    /* border: 2px solid rgb(27, 12, 202); */
-    
-  }
-  .right {
+    top: 22px;
     background-color: rgb(48, 48, 48);
     border-radius: 30px;
+    margin: auto;
+  
+    /* border: 2px solid rgb(27, 12, 202); */
+    
   }
   
   .right li a{
@@ -75,15 +75,16 @@ h1 {
   list-style: none;
 }
 .left img{
-  width: 70px;
-  padding-left: 10px;
+  width: 50px;
+  padding-left: 20px;
+  padding-top: 4px;
 }
 .left div {
 text-align: center;
 font-size: 12px;
 }
 .btn{
-  margin: 0px 1px;
+padding: 8px;
   background-color: black;
   color: white;
   border-radius: 30px;
