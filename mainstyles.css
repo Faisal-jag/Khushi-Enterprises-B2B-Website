@@ -93,3 +93,12 @@ font-size: 12px;
 .btn:hover {
   background-color: rgb(168, 202, 116) ;
 }
+
+.contact iframe{
+  display: block;
+  margin: 20px auto;
+}
+.contact div p{
+  text-align: center; 
+  font-size: 25px;
+}
