@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>business partner form</title>
     <link rel="stylesheet" type="text/css" href="mainstyles.css" />
+    <link rel="stylesheet" href="form.css" />
     <style>
       body {
         color: white;
         margin: 0px;
         padding: 0px;
-        background-color: rgb(48, 42, 42);
+        /* background-color: rgb(48, 42, 42); */
       }
     </style>
   </head>
@@ -48,15 +49,14 @@
     </header>
 
     <section>
-      <div>
-        <h4>Fill The Below Form To Register Your Business(Shop)</h4>
+      <div class="title">
+        <h2>Fill The Below Form To Register Your Business(Shop)</h4>
       </div>
-      <div>
-        <hr />
-        <fieldset>
+      <div class="form">
+        <fieldset class="legend">
           <legend>Personal Details :</legend>
 
-          <form action="/action_page.php">
+          <form class="pform" action="/action_page.php">
             <label for="fname">First name:</label><br />
             <input
               type="text"
@@ -74,11 +74,14 @@
               placeholder="Ex:doe"
             /><br /><br />
 
-            <label for="gender">Select Your gender</label> <br>
-            <input type="radio" id="male" name="gender" value="male" />
-            <label for="gender">Male</label><br />
-            <input type="radio" id="female" name="gender" value="female" />
-            <label for="gender">female</label><br /> <br /><br />
+            <fieldset class="gender">
+              <legend>Select Your gender </legend>
+              <label class="radio" for="gender">Male</label>
+            <input class="radio" type="radio" id="male" name="gender" value="male" />
+            <label  for="gender">female</label>
+            <input class="radio" type="radio" id="female" name="gender" value="female" />
+          </fieldset>
+            <br /><br />
 
             <label for="num">Mobile Number</label><br />
             <input
