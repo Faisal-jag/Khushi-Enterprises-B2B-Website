@@ -28,23 +28,34 @@ padding: 50px 75px;
 .legend {
     border-radius: 10px;
 }
-.pform {
+.pform, .bform {
     width: 500px;
     margin: 0 auto;
 }
-.pform input, textarea {
+.pform input, textarea, .bform input, textarea {
     width: 500px;
 }
 .gender label{
     padding-left: 70px;
 }
+.btype label {
+    padding-left: 35px;
+}
 #male, #female {
     width: 50px;
 }
-.gender {
+#Btype1, #Btype2, #Btype3, #bcategory1, #bcategory2, #bcategory3 {
+    width: 20px;
+}
+
+.gender, .btype, .bcategory {
     width: 470px;
 }
 .radio:hover{
     cursor: pointer;
     
+}
+.fbtn {
+    display: flex;
+    justify-content: center;
 }

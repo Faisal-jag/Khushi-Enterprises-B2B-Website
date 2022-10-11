@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Details</title>
+    <link rel="stylesheet" type="text/css" href="mainstyles.css" />
+    <link rel="stylesheet" href="form.css" />
+    <style>
+      body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        /* background-color: rgb(48, 42, 42); */
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Khushi Enterprises B2B Business Portfolio</h1>
+      <!-- left box for logo -->
+      <div class="left">
+        <img src="images/logo/firmLogo.jpg" alt="logo" />
+        <div>Khushi Enterprises</div>
+      </div>
+
+      <!-- mid box for navbar -->
+      <div class="mid">
+        <nav class="navbar">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="onlinestore.html">Online Store</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- right box for button -->
+      <div class="right">
+        <!-- <ul> -->
+        <!-- <button class="btn"  >Contact US</button> -->
+        <a href="contactus.html" class="active">
+          <button class="btn">Contact US</button></a
+        >
+        <!-- </ul> -->
+      </div>
+    </header>
+
+    <section>
+      <div class="title">
+        <h2>Fill The Below Form To Register Your Business(Shop)</h2>
+      </div>
+      <div class="form">
+        <fieldset>
+          <legend>Business Details :</legend>
+          <form class="bform" action="/action_page.php">
+            <label for="bname">Business Name:</label><br />
+            <input
+              type="text"
+              id="bname"
+              name="bname"
+              placeholder="Ex:Bharat Marketing Company"
+              autofocus
+            /><br />
+
+            <label for="lname">GST No : </label><br />
+            <input
+              type="number"
+              id="gst"
+              name="gst"
+              placeholder="Type your registerd GST number"
+            /><br /><br />
+
+            <fieldset class="btype">
+              <legend>Select Your Business Type</legend>
+              <label class="radio" for="Btype1">Retail</label>
+              <input
+                class="radio"
+                type="radio"
+                id="Btype1"
+                name="Btype1"
+                value="Retail"
+              />
+              <label for="Btype2">Wholesale</label>
+              <input
+                class="radio"
+                type="radio"
+                id="Btype2"
+                name="Btype2"
+                value="Wholesale"
+              />
+              <label for="Btype3">Retail and Wholesale</label>
+              <input
+                class="radio"
+                type="radio"
+                id="Btype3"
+                name="Btype3"
+                value="Retail and Wholesale"
+              />
+            </fieldset>
+            <br /><br />
+
+            <fieldset class="bcategory">
+              <legend>Select Your Business Category</legend>
+              <input
+                type="checkbox"
+                id="bcategory1"
+                name="bcategory1"
+                value="fmcg"
+              />
+              <label for="fmcg">FMCG</label><br />
+              <input
+                type="checkbox"
+                id="bcategory2"
+                name="bcategory2"
+                value="hardware"
+              />
+              <label for="hardware">Hardware</label><br />
+              <input
+                type="checkbox"
+                id="bcategory3"
+                name="bcategory3"
+                value="electrical"
+              />
+              <label for="electrical">Electrical</label><br />
+            </fieldset>
+            <br /><br />
+
+            <label for="baddress"> Business Address :</label>
+            <textarea
+              name="baddress"
+              id="baddress"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <br /><br />
+            <div class="fbtn">
+              <input type="submit" />
+            </div>
+          </form>
+        </fieldset>
+      </div>
+    </section>
+  </body>
+</html>

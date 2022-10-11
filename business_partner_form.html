@@ -48,81 +48,93 @@
       </div>
     </header>
 
-    <section>
-      <div class="title">
-        <h2>Fill The Below Form To Register Your Business(Shop)</h4>
-      </div>
-      <div class="form">
-        <fieldset class="legend">
-          <legend>Personal Details :</legend>
+      <section>
+        <div class="title">
+          <h2>Fill The Below Form To Register Your Business(Shop)</h2>
+        </div>
+        <div class="form">
+          <fieldset class="legend">
+            <legend>Personal Details :</legend>
 
-          <form class="pform" action="/action_page.php">
-            <label for="fname">First name:</label><br />
-            <input
-              type="text"
-              id="fname"
-              name="fname"
-              placeholder="Ex:John"
-              autofocus
-            /><br />
+            <form class="pform" action="/action_page.php">
+              <label for="fname">First name:</label><br />
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="Ex:John"
+                autofocus
+              /><br />
 
-            <label for="lname">Last name:</label><br />
-            <input
-              type="text"
-              id="lname"
-              name="lname"
-              placeholder="Ex:doe"
-            /><br /><br />
+              <label for="lname">Last name:</label><br />
+              <input
+                type="text"
+                id="lname"
+                name="lname"
+                placeholder="Ex:doe"
+              /><br /><br />
 
-            <fieldset class="gender">
-              <legend>Select Your gender </legend>
-              <label class="radio" for="gender">Male</label>
-            <input class="radio" type="radio" id="male" name="gender" value="male" />
-            <label  for="gender">female</label>
-            <input class="radio" type="radio" id="female" name="gender" value="female" />
+              <fieldset class="gender">
+                <legend>Select Your gender</legend>
+                <label class="radio" for="gender">Male</label>
+                <input
+                  class="radio"
+                  type="radio"
+                  id="male"
+                  name="gender"
+                  value="male"
+                />
+                <label for="gender">female</label>
+                <input
+                  class="radio"
+                  type="radio"
+                  id="female"
+                  name="gender"
+                  value="female"
+                />
+              </fieldset>
+              <br /><br />
+
+              <label for="num">Mobile Number</label><br />
+              <input
+                type="number"
+                name="number"
+                id="Mnumber"
+                placeholder="Ex:9900877121"
+              /><br /><br />
+
+              <label for="email">Email ID</label><br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Ex:johndoe@gmail.com"
+              /><br /><br />
+
+              <label for="Haddress">Residential Address</label><br />
+              <textarea
+                name="Haddress"
+                id="Haddress"
+                cols="30"
+                rows="10"
+                placeholder="Enter Your Permanent Residential Address Here..."
+              ></textarea>
+              <br /><br />
+
+              <label for="Caddress">Current Address</label><br />
+              <textarea
+                name="Caddress"
+                id="Caddress"
+                cols="30"
+                rows="10"
+                placeholder="Enter Your Current Residential Address Here..."
+              ></textarea>
+              <br /><br />
+
+              <input type="submit" value="Submit" />
+            </form>
           </fieldset>
-            <br /><br />
-
-            <label for="num">Mobile Number</label><br />
-            <input
-              type="number"
-              name="number"
-              id="Mnumber"
-              placeholder="Ex:9900877121"
-            /><br /><br />
-
-            <label for="email">Email ID</label><br />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Ex:johndoe@gmail.com"
-            /><br /><br />
-
-            <label for="Haddress">Residential Address</label><br />
-            <textarea
-              name="Haddress"
-              id="Haddress"
-              cols="30"
-              rows="10"
-              placeholder="Enter Your Permanent Residential Address Here..."
-            ></textarea>
-            <br /><br />
-
-            <label for="Caddress">Current Address</label><br />
-            <textarea
-              name="Caddress"
-              id="Caddress"
-              cols="30"
-              rows="10"
-              placeholder="Enter Your Current Residential Address Here..."
-            ></textarea>
-            <br /><br />
-
-            <input type="submit" value="Submit" />
-          </form>
-        </fieldset>
-      </div>
-    </section>
+        </div>
+      </section>
   </body>
 </html>
