@@ -3,10 +3,10 @@ body{
 }
 h2{
     text-align: center;
-    background-color: wheat;
+    background-color: rgb(249, 247, 242);
     color: black;
     /* display: block; */
-
+    border-radius: 10px;
     width: 50%;
     margin: 5px auto;
 
